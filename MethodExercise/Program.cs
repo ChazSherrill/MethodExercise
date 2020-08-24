@@ -23,10 +23,7 @@ namespace MethodExercise
             return x / y;
         }
 
-        public static int Remander(int x, int y)
-        {
-            return x % y;
-        }
+        public static int Remander(int x, int y) => x % y;
 
         public static int Subtract(int x, int y)
         {
@@ -65,12 +62,12 @@ namespace MethodExercise
                     Console.WriteLine($"Every party has a pooper. and that's you, {name}.");
                 }*/
 
-            Console.WriteLine(Sum(2, 4));
+           /* Console.WriteLine(Sum(2, 4));
             Console.WriteLine(Multiply(4, 4));
-            Console.WriteLine(Divide(4, 2));
+            Console.WriteLine(Divide(4, 2));*/
             Console.WriteLine(Remander(9, 5));
-            Console.WriteLine(Subtract(6, 5));
-            Console.WriteLine(SuperAdd(4, 4, 4, 4, 4));
+          /*  Console.WriteLine(Subtract(6, 5));
+            Console.WriteLine(SuperAdd(4, 4, 4, 4, 4));*/
         }
     }
 }
